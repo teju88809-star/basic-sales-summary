@@ -1,0 +1,5 @@
+ Basic Sales Summary
+
+This project uses Microsoft Excel and a CSV dataset.
+
+No Python packages are required for the Excel-only workflow.
