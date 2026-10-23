@@ -1,0 +1,42 @@
+Deployment Configuration
+
+Project Type
+
+Excel-based data analytics project.
+
+Deployment Method
+
+No server deployment is required. The project is delivered through GitHub as a dataset, Excel workbook, and PDF report.
+
+Prerequisites
+
+- Microsoft Excel or LibreOffice Calc
+- Internet connection to download the dataset from Kaggle
+- GitHub account
+
+Setup Instructions
+
+1. Download the Sample Superstore dataset from Kaggle.
+2. Open the CSV file in Excel.
+3. Identify the Sales column and confirm the data range.
+4. Create a Summary worksheet.
+5. Calculate Total Sales, Average Sales, and Transaction Count using Excel formulas.
+6. Save the workbook as "Sales_Summary.xlsx".
+7. Upload the dataset, workbook, README, and report to the GitHub repository.
+
+Verification
+
+- Check that the formulas reference the correct Sales column.
+- Compare the SUM result with a manual or independent calculation.
+- Confirm that AVERAGE equals total sales divided by the count of numeric sales entries.
+- Confirm that COUNT returns the number of numeric sales entries.
+
+Hosting
+
+GitHub repository: Source files and documentation.
+
+GitHub Pages: Not required for this Excel-only project.
+
+Rollback
+
+If an incorrect file is uploaded, restore the previous version using Git history or replace the incorrect file with the verified version.
